@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/calculo
+Content-Type: application/json
+
+{
+  "origem": "Centro, Rio de Janeiro - RJ",
+  "destino": "Copacabana, Rio de Janeiro - RJ",
+  "combustivel": "gasolina",
+  "consumo": 12
+}

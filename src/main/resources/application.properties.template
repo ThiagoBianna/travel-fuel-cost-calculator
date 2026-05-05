@@ -1,0 +1,11 @@
+# Configure a URL do banco via variável de ambiente: DB_URL
+# Exemplo: export DB_URL=jdbc:postgresql://localhost:5432/vaidarquanto
+spring.datasource.url=${DB_URL:jdbc:postgresql://localhost:5432/vaidarquanto}
+spring.datasource.username=postgres
+
+# Configure a senha via variável de ambiente: DB_PASSWORD
+# Exemplo: export DB_PASSWORD=sua_senha_aqui
+spring.datasource.password=${DB_PASSWORD:senha_aqui}
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
