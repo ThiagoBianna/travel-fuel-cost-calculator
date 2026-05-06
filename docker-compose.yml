@@ -1,0 +1,28 @@
+services:
+  db_viagens:
+    image: postgres
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: .
+    container_name: api_viagens
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/travel_db
+      SPRING_DATASOURCE_USERNAME: thiago
+      SPRING_DATASOURCE_PASSWORD: 6782
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: web_viagens
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
