@@ -22,4 +22,8 @@ public class CalculoController {
         // Agora delegamos a lógica para o Service
         return calculoService.calcularCusto(request);
     }
+    @GetMapping("/teste")
+    public String testar() {
+        return "O backend do Vai Dar Quanto está online!";
+    }
 }
