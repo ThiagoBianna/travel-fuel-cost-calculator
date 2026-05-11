@@ -94,7 +94,7 @@ export default function App() {
           const distanciaKm = distanciaMetros / 1000;
 
           try {
-            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8081';
+            const API_URL = import.meta.env.VITE_API_URL || 'https://travel-cost-calculator-1.onrender.com';
             const res = await fetch(`${API_URL}/api/calculo`, {
               method: "POST",
               headers: { "Content-Type": "application/json" },
