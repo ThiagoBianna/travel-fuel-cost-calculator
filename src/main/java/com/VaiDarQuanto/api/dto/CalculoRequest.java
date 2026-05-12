@@ -8,6 +8,6 @@ public class CalculoRequest {
     private String destino;
     private String combustivel;
     private double consumo;
-    private double distancia; // Verifique se o nome está idêntico a este
+    private double distancia;
     private double precoCombustivel;
 }

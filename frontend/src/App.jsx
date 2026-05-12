@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-// Carregar Google Maps API dinamicamente
 const loadGoogleMaps = () => {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
   if (!apiKey) {
@@ -33,7 +32,6 @@ export default function App() {
   const [sugestoes, setSugestoes] = useState([]);
   const [campoFocado, setCampoFocado] = useState(null);
 
-  // Carregar Google Maps API quando o componente montar
   useEffect(() => {
     loadGoogleMaps();
   }, []);
@@ -150,7 +148,6 @@ export default function App() {
 
           <div style={{ background: "rgba(255,255,255,0.04)", padding: 24, borderRadius: 20, border: "1px solid rgba(255,255,255,0.08)", backdropFilter: "blur(20px)" }}>
 
-            {/* CAMPO ORIGEM */}
             <div style={{ marginBottom: 16, position: "relative" }}>
               <label style={labelStyle}>📍 Origem</label>
               <input
@@ -177,7 +174,6 @@ export default function App() {
               )}
             </div>
 
-            {/* CAMPO DESTINO */}
             <div style={{ marginBottom: 16, position: "relative" }}>
               <label style={labelStyle}>🏁 Destino</label>
               <input
@@ -199,7 +195,6 @@ export default function App() {
               )}
             </div>
 
-            {/* CAMPO CONSUMO - ALTERAÇÕES SOLICITADAS AQUI */}
             <div style={{ marginBottom: 16 }}>
               <label style={labelStyle}>
                 🔧 Consumo do carro ({combustivel === "GNV" ? "km/m³" : "km/L"})
@@ -213,7 +208,6 @@ export default function App() {
               />
             </div>
 
-            {/* COMBUSTÍVEL */}
             <div style={{ marginBottom: 20 }}>
               <label style={labelStyle}>⛽ Combustível</label>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>

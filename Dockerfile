@@ -1,10 +1,8 @@
-# Estágio de Build
 FROM maven:3.8.4-eclipse-temurin-17 AS build
 WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
 
-# Estágio de Execução - AGORA COM O NOME CORRETO: jre-alpine
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar

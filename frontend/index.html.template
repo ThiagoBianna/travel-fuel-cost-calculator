@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vai dar quanto? - Calculadora de Viagens</title>
 
-  <!-- Script corrigido: sem quebras de linha e com as bibliotecas necessárias -->
   <script src="https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places"></script>
 </head>
 <body>
