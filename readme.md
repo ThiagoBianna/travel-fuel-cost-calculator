@@ -52,4 +52,4 @@ Como o projeto utiliza variáveis de ambiente para segurança, você precisará 
 Desenvolvedor
 
 Thiago Bianna Pessanha da Cruz
-Estudante de Engenharia de Software na UNINTER e entusiasta de desenvolvimento Backend com Java e ecossistema Linux.
+Estudante de Engenharia de Software
