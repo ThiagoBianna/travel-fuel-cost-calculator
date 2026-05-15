@@ -1,6 +1,6 @@
 ![Tela do Projeto](./img/preview.png)
 
-"Vai dar quanto?" — Calculadora de Viagens
+"Vai dar quanto?" — Calculadora de custo de Viagens
 
 🔗deploy: [https://vai-dar-quanto-web-front.onrender.com/]
 ⚠️ Nota sobre o acesso: Este projeto está hospedado no plano gratuito do Render. Por isso, se o site estiver inativo por algum tempo, o primeiro acesso pode levar cerca de 30-40 segundos para "acordar" o container. Agradeço a paciência!
