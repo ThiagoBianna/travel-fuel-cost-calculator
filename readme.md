@@ -3,7 +3,7 @@
 Vai dar quanto? — Calculadora de custo de Viagens
 
 🔗deploy: [https://vai-dar-quanto-web-front.onrender.com/]
-⚠️ Nota sobre o acesso: Este projeto está hospedado no plano gratuito do Render. Por isso, se o site estiver inativo por algum tempo, o primeiro acesso pode levar cerca de 30-40 segundos para "acordar" o container. Agradeço a paciência!
+⚠️ Nota sobre o acesso: Este projeto está hospedado no plano gratuito do Render. Por isso, o site pode estar inativo por algum tempo. O primeiro cálculo pode levar cerca de 30-40 segundos para "acordar" o container. Agradeço a paciência!
 
 O "Vai dar quanto?" é uma aplicação completa (Full-Stack) projetada para ajudar motoristas a estimarem o custo real de combustível em seus trajetos. Utilizando integrações com a Google Maps API, o sistema calcula a distância precisa entre dois pontos e aplica regras de negócio inteligentes, como alertas para horários de maior consumo (pico).
  
