@@ -1,6 +1,6 @@
 ![Tela do Projeto](./img/preview.png)
 
-"Vai dar quanto?" — Calculadora de custo de Viagens
+Vai dar quanto? — Calculadora de custo de Viagens
 
 🔗deploy: [https://vai-dar-quanto-web-front.onrender.com/]
 ⚠️ Nota sobre o acesso: Este projeto está hospedado no plano gratuito do Render. Por isso, se o site estiver inativo por algum tempo, o primeiro acesso pode levar cerca de 30-40 segundos para "acordar" o container. Agradeço a paciência!
@@ -24,9 +24,9 @@ Funcionalidades Principais
 
     Frontend: React (Vite), Styled Components/CSS dinâmico.
 
-    Backend: Java 17+, Spring Boot, PostgreSQL.
+    Backend: Java 17+, Spring Boot, PostgreSQL, Docker.
 
-    APIs: Google Maps (Distance Matrix e Places).
+    APIs: Google Maps (Distance Matrix, Autocomplete e Places).
 
 Como rodar o projeto
 
